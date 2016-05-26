@@ -1,0 +1,109 @@
+p {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica       Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  text-align: center;
+}
+
+#moon {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica       Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+#bio {
+  font-family:Monospace;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.caption {
+  text-align: center;
+  font-family: Monospace;
+}
+
+.image-caption {
+  padding: 20px 20px 0px 20px;
+  margin: 0px 120px 0px 120px;
+  border-width: 1px;
+  border-color: gray;
+  border-style: solid;
+}
+
+#typed {
+  font-family: Monospace;
+  font-weight: bold;
+  font-size: 200%
+}
+
+.typed-cursor {
+  opacity: 1;
+  -webkit-animation: blink 0.7s infinite;
+  -moz-animation: blink 0.7s infinite;
+  animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+blockquote {
+  background: #f9f9f9;
+  border-left: 1em solid #eee;
+  margin: 1.5em 1em;
+  padding: .5em 1em;
+  quotes: "\201C""\201D";
+}
+
+blockquote:before {
+  color: #808080;
+  content: open-quote;
+  font-size: 4em;
+  line-height: .1em;
+  margin-right: .25em;
+  vertical-align: -.4em;
+}
+
+blockquote:first-child {
+  display: inline;
+}
+
+blockquote:last-child {
+  margin-bottom: 0;
+}
+
+#quote {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
